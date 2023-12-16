@@ -1,0 +1,136 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.nav-link{
+    color: black;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.nav-link:hover{
+    color: blue;
+    text-decoration: underline;
+}
+header{
+    min-height: 100vh;
+    background-image:url(../images/header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.services i{
+    color: #f2564eec;
+    font-size: 60px;
+}
+.card{
+    margin-top: -188px;
+}
+.card button{
+    background-color:#f2564e;
+    color: white;
+}
+#health{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3) , rgba(0, 0, 0, 0.3)), url(../images/health.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.depart{
+    border-right: 1px solid #DEE2E6;
+}
+.depart:hover{
+    background-color: #207DFF;
+    color: white;
+}
+h6{
+    letter-spacing: 3px;
+    font-size: small;
+}
+.doctor{
+    background-color: white;
+    overflow: hidden;
+}
+.doctor img{
+    transition: .3s;
+    transform: scale(1);
+}
+.doctor img:hover{
+    opacity: .6;
+    transform: scale(.9);
+}
+#fact , #patient{
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5) , rgba(0, 0, 255, 0.5)), url(../images/health.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 100px;
+}
+.data{
+    border-right: 1px solid #9dbef0;
+    border-bottom: 1px solid #9dbef0;
+}
+.blog a{
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: small;
+    color: #f2564e;
+    font-weight: 500;
+}
+.blog a:hover{
+    color: black;
+}
+.heading a{
+    font-size: 22px;
+    color: black;
+}
+.heading a:hover{
+    color: #007bff;
+}
+.contacts{
+    background-color: #f8f9fa;
+    height: 300px;
+}
+.contacts span{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 35px;
+}
+footer{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7) , rgba(255, 255, 255, 0.7)), url(../images/footer.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 100px;
+}
+.social-nav , .contact-nav{
+    list-style: none;
+}
+.social-nav li{
+    margin-top: 25px;
+    margin-right: 20px;
+}
+.social-nav li a{
+    text-decoration: none;
+    color: #207DFF;
+    font-size: 1.8rem;
+}
+.contact-nav li{
+    margin-top: 25px;
+    margin-left: -25px;
+}
+.contact-nav li a{
+    text-decoration: none;
+    color: #207DFF;
+    font-size: 1.1rem;
+}
+.contact-nav li i{
+    margin-right: 10px;
+}
